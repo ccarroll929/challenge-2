@@ -1,22 +1,10 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-body {
-    background-color: white;
-}
-header {
-    padding: 20px; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(54, 54, 54);
-}
+
 h1 {
     display: inline-block;
     font-size: 32px;
     padding: 10px; 
-    background: rgb(124, 182, 182);
-    color: rgb(54, 54, 54);
+    background: turquoise;
+    color: black;
 }
 .header {
     padding-top: 15px;
@@ -25,26 +13,62 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px; 
 }
+
 ul {
     list-style-type: none;
 }
-li {
+.header, li {
     display: inline-block; 
     text-decoration: underline;
     text-underline-offset: 35%;
     text-decoration-thickness: 15%;
     margin-left: 25px; 
-    color: rgb(124, 182, 182); 
+    color: turquoise;
 }
-a{
-    color: rgb(124, 182, 182);
-    text-decoration: none; 
+
+.header, a {
+    color: turquoise;
 }
-.cover {
-        height: 400px;
+
+#banner {
+        height: 160px;
         width: 100%;
         margin-bottom: 25px;
-        background-image: url("../assets/images/cover-photo.jpg");
+        background-image: url(https://img.freepik.com/premium-photo/colorful-background-with-geometric-pattern_826801-3192.jpg);
         background-size: cover;
         background-position: center;
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+}
+
+h2 {
+    border-right: 3px solid white; 
+    align-self: stretch; 
+}
+
+
+h2, p {
+    display: inline-flex;
+}
+
+p {
+    flex: 1 0 0;
+    justify-content: center; 
+}
+
+
+footer {
+    margin-top: 5em;
+    display: flex; 
+    justify-content: center;
+}
+
+.contact-me {
+    flex: 1 0 0;
+    flex-direction: row;
+    color: turquoise;
+    background-color: black; 
 }
