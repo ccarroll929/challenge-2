@@ -14,7 +14,7 @@ h1 {
     font-size: 16px; 
 }
 
-ul {
+.header, ul {
     list-style-type: none;
 }
 .header, li {
@@ -46,18 +46,19 @@ main {
 
 h2 {
     border-right: 3px solid white; 
-    align-self: stretch; 
-}
-
-
-h2, p {
-    display: inline-flex;
+    float: left; 
 }
 
 p {
-    flex: 1 0 0;
-    justify-content: center; 
+    align: center;
 }
+
+.my-projects img {
+    height: 200px;
+    width: 400px; 
+    position: relative;  
+}
+
 
 
 footer {
