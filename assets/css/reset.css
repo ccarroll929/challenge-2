@@ -4,39 +4,65 @@
     margin: 0;
 }
 body {
-    background-color: black;
-}
+    font-family: Arial;
+    background-color: black; 
+    margin: 0;
+    min-height: 100vh;
+  }
+
+
 header {
     padding: 20px; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
 }
 
 h2 {
-    padding: 20px;
-    color: white; 
-    width: 350px;
     font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif; 
-    text-indent: 3em; 
-    margin: 10px 50px 20px 0;
+    color: black; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
-h3, p {
-    padding: 15px;
-    width: 50%;
-    line-height: 2;
-    margin-left: 30%;
-    margin-right: 30%;
+#resume p {
+    font-size: 22px;
+    color: white; 
+    text-align: center; 
+}
+
+.first-app header {
+    color: white; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.card header {
     font-size: 18px;
     color: white; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center; 
 }
 
-footer {
-    margin-bottom: 1em;
-     font-size: 22px; 
-     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#about-me p {
+    font-size: 18px; 
+    color: white; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+}
 
+.card p {
+    font-size: 16px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+
+footer {
+     padding: 20px;
+     font-size: 22px; 
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+
+}
+
+footer ul {
+    list-style: none; 
 }

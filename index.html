@@ -9,7 +9,7 @@
 <body>
 <header>
 <h1>My Portfolio</h1>
-<nav class="header">
+<nav>
     <ul>
         <li>
             <a href="#about-me">About Me</a>
@@ -31,38 +31,56 @@
 <div id="subtitle"><!--Insert Subtitle Here--></div>
 
 <main>
-    <section id="about-me" class="about-me">
-    <h2>About Me</h2>
-        <p>My name is Christina Carroll, I am 29 years old living near San Antonio, TX and I am currently enrolled in the UTSA Coding Bootcamp course.
-            As I embark on this journey of learning I will continue to update this portfolio page in order to showcase my knowledge, skills, and my completed coding projects.
+
+<aside>
+        <h2 class="about-me">About Me</h2>
+        <h2 class="my-projects">My Projects</h2>
+        <h2 class="resume">Resume</h2>
+    </section>
+</aside>
+
+
+<div class="main-content">
+<section id="about-me">
+    <img src="./assets/images/profile-pic.jpeg" id="profile-pic">
+        <p id="my-info">Hello and welcome to my work portfolio! My name is Christina Carroll. I am 29 years old and I'm currently enrolled in the UTSA Coding Bootcamp course in pursuit of a full-stack development certification.
+            As I embark on this learning journey I will continue to update my portfolio page in order to showcase my gained knowledge and skills as demonstrated in the projects I have completed. 
         </p>
     </section>
-
-    <section id="my-projects" class="my-projects">
-    <h2>My Projects</h2>
-        <h3 class="project-name">Code Refactor: In this project I took starter code for the web application linked in the image below and improved upon it by consolidating elements and reorganizing the code to make it easier to read</h3>
-       <p><a href="https://ccarroll929.github.io/challenge-1/""><img src="./assets/images/horiseon-website-image.PNG" class="images">
+<div class="images">
+    <section id="my-projects" class="first-app">
+        <header>Code Refactor</header>
+       <a href="https://ccarroll929.github.io/challenge-1/"><img src="./assets/images/horiseon-website-image.PNG">
     </a>
-    </p>
-    <h3 class="project-name">(Image Placeholder)</h3>
-    <p><a href="project-url"><img src="assets/images/placeholder-image.jpg" class="images"> </a></p>
-    <h3 class="project-name">(Image Placeholder)</h3>
-    <p><a href="project-url"><img src="assets/images/placeholder-image.jpg" class="images"> </a></p>
-    <h3 class="project-name">(Image Placeholder)</h3>
-    <p><a href="project-url"><img src="assets/images/placeholder-image.jpg" class="images"> </a></p>
 </section>
-    </section>
-
-    <section id="resume" class="resume">
-    <h2>Resume</h2>
+    <section class="card">
+    <header>(Image Placeholder)</header>
+    <a href="project-url"><img src="assets/images/placeholder-image.jpg"> 
+    </a>
+</section>
+    <section class="card">
+     <header>(Image Placeholder)</header>
+     <a href="project-url"><img src="assets/images/placeholder-image.jpg"> 
+    </a> 
+</section>
+    <section class="card">
+    <header>(Image Placeholder)</header>
+         <a href="project-url"><img src="assets/images/placeholder-image.jpg"> 
+    </a>
+</section>
+</div>
+    <section id="resume">
         <p>Insert resume image/file link here</p>
     </section>
+</div>
+
 </main>
+
 <footer id="contact-me" class="contact-me">
-    <h4>Contact Me:</h4>
+<ul>
+    <h3>Contact Me:</h3>
+    <li>Phone: 832-531-5845</li>
     <li>Email: ccarroll0528@gmail.com</li>
-    <li>GitHub: <a href="https://www.github.com/ccarroll929">github.com/ccarroll929</a>
-    </li>
 </ul>
 </footer>
 
