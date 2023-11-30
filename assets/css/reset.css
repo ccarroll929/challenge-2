@@ -22,8 +22,9 @@ h2 {
     margin: 10px 50px 20px 0;
 }
 
-p {
-    padding: 20px;
+h3, p {
+    padding: 15px;
+    width: 50%;
     line-height: 2;
     margin-left: 30%;
     margin-right: 30%;
@@ -34,10 +35,8 @@ p {
 }
 
 footer {
+    margin-bottom: 1em;
      font-size: 22px; 
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     margin-left: 10em;
-     margin-right: 10em;
-     margin-bottom: 2em;
 
 }

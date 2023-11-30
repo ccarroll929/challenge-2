@@ -19,9 +19,6 @@ h1 {
 }
 .header, li {
     display: inline-block; 
-    text-decoration: underline;
-    text-underline-offset: 35%;
-    text-decoration-thickness: 15%;
     margin-left: 25px; 
     color: turquoise;
 }
@@ -49,17 +46,16 @@ h2 {
     float: left; 
 }
 
-p {
+h3, p {
     align: center;
 }
 
-.my-projects img {
+
+.images {
     height: 200px;
-    width: 400px; 
-    position: relative;  
+    width: 400px;
+    flex-flow: column wrap; 
 }
-
-
 
 footer {
     margin-top: 5em;
@@ -73,3 +69,27 @@ footer {
     color: turquoise;
     background-color: black; 
 }
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 35%;
+    text-decoration-thickness: 15%;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      flex-wrap: column wrap; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        flex-wrap: column wrap;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    body {
+        flex-wrap: column wrap; 
+    }
+  }
